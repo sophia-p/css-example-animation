@@ -1,0 +1,30 @@
+#body {
+	z-index: -1;
+    width: 100px;
+    height: 200px;
+    background: black;
+    position: relative;
+/*    -webkit-border-radius: 100px / 50px;
+    -moz-border-radius: 100px / 50px;*/
+    border-radius: 50px / 60px;
+}
+
+
+
+/*#stomach {
+	width: 70px;
+    height: 170px;
+    background: white;
+    -webkit-border-radius: 100px / 50px;
+    -moz-border-radius: 100px / 50px;
+    border-radius: 50px / 60px;
+}*/
+
+#head {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+
+}
+
