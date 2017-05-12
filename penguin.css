@@ -12,6 +12,16 @@
     border-radius: 50%;
 
 }
+#face {
+    top: 20px;
+    left: 10px;
+    position: relative;
+    width: 55px;
+    height: 60px;
+    background: white;
+    border-radius: 50%;
+
+}
 
 
 #body {
