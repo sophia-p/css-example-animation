@@ -25,8 +25,18 @@
 
 }
 
+.eye-left {
+   
+    position: relative;
+    width: 15px;
+    height: 20px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
 #beak {
-    left: 30px;
+
     transform: rotate(180deg);
     position: relative;
     top: 0px;
