@@ -36,6 +36,15 @@
     border-radius: 50%;
 }
 
+.pupil-left {
+    position: relative;
+    top: 10px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: black;
+}
+
 .eye-right {
     top: -12px;
     left: 40px;
@@ -45,6 +54,15 @@
     background: white;
     border: 1px solid black;
     border-radius: 50%;
+}
+
+.pupil-right {
+    position: relative;
+    top: 10px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: black;
 }
 
 #beak {
