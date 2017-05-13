@@ -26,7 +26,19 @@
 }
 
 .eye-left {
-   
+    top: 10px;
+    left: 0px;
+    position: relative;
+    width: 15px;
+    height: 20px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.eye-right {
+    top: -12px;
+    left: 40px;
     position: relative;
     width: 15px;
     height: 20px;
@@ -37,9 +49,10 @@
 
 #beak {
 
-    transform: rotate(180deg);
+    transform: rotate(190deg);
     position: relative;
-    top: 0px;
+    top: -15px;
+    left: 20px;
     z-index:0;
     width: 0;
     height: 0;
