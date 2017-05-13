@@ -1,6 +1,8 @@
 
 .penguin {
     position: relative;
+    top: 30px;
+    left: 30px;
 }
 #head{
     z-index:-2;
