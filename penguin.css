@@ -91,8 +91,8 @@
 
 .penguin {
     position: relative;
-    top: 120px;
-    left: 30px;
+    top: 220px;
+    left: 90px;
 }
 #head{
     z-index:-2;
@@ -135,8 +135,7 @@
     height: 8px;
     border-radius: 50%;
     background: black;
-    animation-name: eye-roll;
-    animation-duration: 10s;
+    animation: eye-roll 10s infinite;
 }
 
 .eye-right {
@@ -157,8 +156,8 @@
     height: 8px;
     border-radius: 50%;
     background: black;
-    animation-name: eye-roll;
-    animation-duration: 10s;
+    animation: eye-roll 10s infinite;
+
 }
 
 #beak {
@@ -211,9 +210,7 @@
     background: black;
     border-radius: 50% / 75% 75% 35% 35%;
     transform: rotate(200deg);
-    animation-name: flap-left;
-    animation-duration: 4s;
-    animation-iteration-count: 3;
+    animation: flap-left 8s infinite;
 }
 
 .flipper-right {
@@ -225,9 +222,7 @@
     background: black;
     border-radius: 50% / 75% 75% 35% 35%;
     transform: rotate(155deg);
-    animation-name: flap-right;
-    animation-duration: 4s;
-    animation-iteration-count: 3;
+    animation: flap-right 8s infinite;
 }
 
 .foot-left {
@@ -260,24 +255,24 @@
     position: relative;
     left: 0px;
     z-index: -5;
-    top: -18px;
+    top: -19.5px;
     background: grey;
     width: 150px;   
-    height: 5px; 
+    height: 2px; 
     border-bottom-left-radius: 50% 25%;
     border-bottom-right-radius: 50% 25%;
     border-top-left-radius: 50% 25%;
     border-top-right-radius: 50% 25%;
 }
 
-.line {
+/*.line {
     position: relative;
     left: -20px;
     top: -18px;
     width:100%;
     height: 1px;
     background: grey;
-}
+}*/
 
 @keyframes flap-right {
     from {transform: rotate(155deg);}
