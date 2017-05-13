@@ -45,6 +45,8 @@
     height: 8px;
     border-radius: 50%;
     background: black;
+    animation-name: eye-roll;
+    animation-duration: 10s;
 }
 
 .eye-right {
@@ -65,6 +67,8 @@
     height: 8px;
     border-radius: 50%;
     background: black;
+    animation-name: eye-roll;
+    animation-duration: 10s;
 }
 
 #beak {
@@ -117,6 +121,9 @@
     background: black;
     border-radius: 50% / 75% 75% 35% 35%;
     transform: rotate(200deg);
+    animation-name: flap-left;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
 }
 
 .flipper-right {
@@ -128,6 +135,9 @@
     background: black;
     border-radius: 50% / 75% 75% 35% 35%;
     transform: rotate(155deg);
+    animation-name: flap-right;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
 }
 
 .foot-left {
@@ -154,6 +164,30 @@
     border-width: 0 20px 15px 20px;
     border-color: transparent transparent orange transparent;
     border-radius: 80% / 95% 5% 95% 95%;
+}
+
+@keyframes flap-right {
+    from {transform: rotate(155deg);}
+    to {transform: rotate(160deg);}
+}
+@keyframes flap-left {
+    from {transform: rotate(200deg);}
+    to {transform: rotate(195deg);}
+}
+
+@keyframes eye-roll {
+    0% {
+        transform: none;
+    }
+    50% {
+        transform: translateY(-10px) rotate(-16deg);
+    }
+    75% {
+        transform: translateY(0px) rotate(-16deg);
+    }
+    100% {
+        transform: translateY(0px) rotate(-16deg);
+    }
 }
 
 
